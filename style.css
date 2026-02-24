@@ -1,0 +1,20 @@
+.maincontainer {
+    display: flex;
+    flex: 1;
+    height: 80vh;
+    aspect-ratio: 1/1;
+    margin: 20px 50px;
+    border-width: 10px;
+    border-color: red;
+    border-style: solid;
+    border-radius: 25px;
+    justify-self: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.flexbox {
+    display: flex;
+    flex: 1 1 100px;
+    min-width: 5px;
+    min-height: 5px;
+}
