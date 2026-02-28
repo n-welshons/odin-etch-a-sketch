@@ -10,11 +10,11 @@
     border-radius: 25px;
     justify-self: center;
     justify-content: space-around;
-    flex-wrap: wrap;
+    flex-direction: column;
 }
 .flexbox {
     display: flex;
     flex: 1 1 100px;
-    min-width: 5px;
-    min-height: 5px;
+    min-width: 1px;
+    min-height: 1px;
 }
