@@ -18,3 +18,9 @@
     min-width: 1px;
     min-height: 1px;
 }
+.gridsquare {
+    display: flex;
+    flex: 1 1 100px;
+    min-width: 1px;
+    min-height: 1px;
+}

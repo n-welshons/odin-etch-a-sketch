@@ -7,8 +7,15 @@ for (let i = 0; i < 16; i++) {
     for (let k = 0; k < 16; k++) {
         const row = document.getElementById(i);
         const rowDiv = document.createElement("div");
-        rowDiv.className = "flexbox";
+        rowDiv.className = "gridsquare";
         row.appendChild(rowDiv);
     }
     
 }
+const grid = document.querySelectorAll(".gridsquare")
+function trail(event) {
+    event.target.style.backgroundColor = "grey";
+}
+grid.forEach(div => {
+    div.addEventListener("mouseenter", trail);
+});
